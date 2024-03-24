@@ -1,17 +1,16 @@
-function extractNameAndStreet({ name, address: { street } }) {
-    return { name, street };
+function extractNameAndState({ name, address: { state } }) {
+    return { name, state };
 }
 
 const person = {
-    name: "Gulshan",
-    age: 21,
+    name: "Abhishek",
+    age: 20,
     address: {
-        street: "B8, Block B, Industrial Area.",
-        city: "Sector 62, Noida",
-        state: "Uttar Pradesh"
+        city: "Madhepura",
+        state: "Bihar"
     }
 };
 
-const { name, street } = extractNameAndStreet(person);
-console.log(name);    // "Gulshan"
-console.log(street);  // "B8, Block B, Industrial Area."
+const { name, state } = extractNameAndState(person);
+console.log(name);    // "Abhishek"
+console.log(state);  // "Bihar"
