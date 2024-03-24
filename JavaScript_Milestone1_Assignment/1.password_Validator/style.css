@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%; 
+    background-color: #808080;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 60%;
+    border-radius: 8px;
+    background-color: #080707;
+    
+}
+h1{
+    font-size: 3.5vw;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+label{
+    font-size: 1.6vw;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+#entered-password{
+    margin-left: 35px;
+}
+#confirmed-password{
+    margin-left: 10px;
+}
+input{
+    padding: 0.5vh 0.5vw;
+    font-size: 1.2vw;
+    font-weight: 500;
+    border-radius: 8px;
+}
+.btn-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+button{
+    font-size: 1.3vw;
+    font-weight: 600;
+    margin-top:10px;
+    color: #ffffff;
+    border-radius: 8px;
+    border: none;
+}
+#submit{
+    background-color:#008000;
+    padding: 1.5vh 1vw;
+    
+}
+#reset{
+    background-color:#0000ff;
+    padding: 1.7vh 1.3vw;
+    
+}
+h2{
+    margin-top: 20px;
+    /* color: #ff0000; */
+}

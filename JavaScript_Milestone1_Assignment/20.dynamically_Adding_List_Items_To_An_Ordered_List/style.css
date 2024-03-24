@@ -1,0 +1,82 @@
+/* css reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 110vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    font-family: 'poppins', sans-serif;
+}
+
+.flex {
+    display: flex;
+}
+
+.container {
+    padding: 15px;
+    background-color: #f5f5f5;
+    border-radius: 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 25px;
+    width: 450px;
+    box-shadow: 2px 3px 5px #dadada;
+}
+
+.container h1 {
+    font-size: 25px;
+    font-weight: 600;
+    align-self: center;
+}
+ 
+
+.container li {
+    color: #2c2c2c;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 5px;
+}
+
+.container div {
+    align-self: center;
+    width: 100%;
+}
+
+.container button {
+    width: 50%;
+    padding: 12px 10px;
+    font-size: 15px;
+    color: #ffffff;
+    font-weight: 600;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.container button:hover {
+    transform: translateY(-4px);
+}
+#delete-btn {
+    background-color: #ff1d1d;
+}
+
+#add-btn {
+    background-color: #ff5213;
+}
+
+@media screen and (max-width: 425px) {
+    .container {
+        width: 90vw;
+    }
+    .container li {
+        font-size: 16px;
+    }
+}
