@@ -1,0 +1,30 @@
+/* css reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+    font-family: 'poppins', sans-serif;
+}
+
+.flex {
+    display: flex;
+}
+
+.container {
+    background-color: #d9d8d8;
+    width: 280px;
+    height: 280px;
+    border-radius: 10px;
+    padding: 25px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 5px #d9d8d8;
+}
